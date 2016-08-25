@@ -1,4 +1,4 @@
-FROM nginx
+FROM vmwarecna/nginx
 ADD server.conf /etc/nginx/conf.d/server.conf
 
 RUN mkdir -p /var/www/html
